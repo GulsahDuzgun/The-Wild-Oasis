@@ -59,13 +59,13 @@ export default function CabinRow({ cabin }) {
     description,
   } = cabin;
 
-  const { createCabinFunc: dublicateCabin, isCreating: isDublicating } =
+  const { createCabinFunc: duplicateCabin, isCreating: isDublicating } =
     useCreateCabin();
 
   const { isDeleting, deleteCabinFunc } = useDelete();
 
-  function handleDublicate() {
-    dublicateCabin({
+  function handleDuplicate() {
+    duplicateCabin({
       name: `Copy of ${name}`,
       maxCapacity,
       regularPrice,
@@ -97,9 +97,9 @@ export default function CabinRow({ cabin }) {
               <Menus.Button
                 disabled={isDublicating}
                 icon={<HiSquare2Stack />}
-                onClick={handleDublicate}
+                onClick={handleDuplicate}
               >
-                Dublicate
+                Duplicate
               </Menus.Button>
               <Modal.Open opens="delete-cabin">
                 <Menus.Button icon={<HiTrash />}>Delete</Menus.Button>
