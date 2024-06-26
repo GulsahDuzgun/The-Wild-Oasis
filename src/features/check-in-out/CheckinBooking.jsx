@@ -37,7 +37,7 @@ function CheckinBooking() {
     numNights,
     hasBreakfast,
     extrasPrice,
-    // isPaid,
+    isPaid,
   } = booking;
 
   const [isConfirm, setIsConfirm] = useState(false);
@@ -86,7 +86,7 @@ function CheckinBooking() {
           checked={isConfirm}
           onChange={() => setIsConfirm((c) => !c)}
         >
-          {!extrasPrice && isBreakfast
+          {!extrasPrice && isBreakfast && isPaid
             ? `I confirm that 
             ${guests.fullName}
              has paid  ${formatCurrency(totalBreakfastCost)} for breakfast`
@@ -94,7 +94,7 @@ function CheckinBooking() {
             ${guests.fullName}
              has paid the total amount of  
           ${
-            !hasBreakfast && isBreakfast
+            !hasBreakfast && isBreakfast && !isPaid
               ? `${formatCurrency(totalPrice + totalBreakfastCost)}(
                   ${totalPrice} + ${totalBreakfastCost}
                 )`
