@@ -1,6 +1,6 @@
 <h1>
-  <a href="https://the-wild-oasis-gldn.netlify.app/" 
-  style=" color:black;font-weight: 700;" >The Wild Oasis ⛺
+  <a href="https://the-wild-oasis-gldn.netlify.app/" style="color:black; font-weight : 700; text-decoration: none !important;">
+    The Wild Oasis ⛺
   </a>
 </h1>
 
