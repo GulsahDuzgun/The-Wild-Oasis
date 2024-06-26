@@ -14,7 +14,7 @@ On the Users tab, you can create a new user with a real email account. To regist
 
 On the Settings tab, you can display the setting data of the wild oasis. And you can update the data separately and automatically if you'd like 🌟.
 
-You can try by clicking <strong>[ The Wild Oasis ](https://the-wild-oasis-gldn.netlify.app/login)</strong>.
+You can try by clicking <strong>[ The Wild Oasis ](https://the-wild-oasis-gldn.netlify.app/)</strong>.
 
 ## Technologies Used
 
