@@ -1,4 +1,4 @@
-## <a href="https://the-wild-oasis-gldn.netlify.app/" style="color: black; font-weight:700;">The Wild Oasis ⛺ </a>
+## <a href="https://the-wild-oasis-gldn.netlify.app/" style="color: #000; font-weight:700;">The Wild Oasis ⛺ </a>
 
 The Wild Oasis is a website project which I built with React Query and Supabase. The Wild Oasis is a hotel employee's were internally used website to checked-in, checked-out, control the pay status, create another user, display these events in dashboards, check the bookings' and cabins' information, update their password, avatar and user information. You can login the system with password and email data which is filled with default test user's login information. After you logged in , you will redirect to dashboard (home) page. On home page you can check today's reservation and display the grouped reservation according to date.
 
